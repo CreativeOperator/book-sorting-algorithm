@@ -1,0 +1,17 @@
+# Test Cases for Book-Sorting Algorithm
+
+## Test Case 1: Basic Sorting
+- Input: [{'title': 'Book A', 'author': 'Author X'}, {'title': 'Book B', 'author': 'Author Y'}, {'title': 'Book C', 'author': 'Author X'}]
+- Expected Output: [{'title': 'Book A', 'author': 'Author X'}, {'title': 'Book C', 'author': 'Author X'}, {'title': 'Book B', 'author': 'Author Y'}]
+
+## Test Case 2: Empty List
+- Input: []
+- Expected Output: []
+
+## Test Case 3: Single Book
+- Input: [{'title': 'Book D', 'author': 'Author Z'}]
+- Expected Output: [{'title': 'Book D', 'author': 'Author Z'}]
+
+## Test Case 4: Multiple Books Same Author
+- Input: [{'title': 'Book E', 'author': 'Author X'}, {'title': 'Book F', 'author': 'Author X'}]
+- Expected Output: [{'title': 'Book E', 'author': 'Author X'}, {'title': 'Book F', 'author': 'Author X'}]
